@@ -1,0 +1,83 @@
+.job-item-card-container {
+  background-color: #272727;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-family: Roboto;
+  color: #ffffff;
+  width: 90%;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+.job-item-card-company-name-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.job-item-card-profile-image {
+  height: 70px;
+  width: 60px;
+}
+
+.job-item-card-profile-head-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-item-card-profile-head {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.job-item-card-profile-rating-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+.rating-star {
+  color: #fbbf24;
+  margin-right: 10px;
+}
+
+.job-item-info-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-item-info-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.job-item-location-icon {
+  margin-right: 5px;
+}
+
+.job-item-briefcase-icon {
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.salary {
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.separator {
+  width: 99%;
+}
+
+.job-item-description-head {
+  font-size: 20px;
+}
